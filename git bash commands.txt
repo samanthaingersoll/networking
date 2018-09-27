@@ -1,0 +1,17 @@
+//clone repository to computer
+git clone https://github.com/samanthaingersoll/networking.git
+
+//create a new branch
+git branch <new branch name>
+
+//add new code you wrote to the branch
+git add .
+
+//commit to branch
+git commit -m"type your message here"
+
+//push branch up to the repository, if this is the first push on a branch:  git push --set-upstream origin <branch name>
+git push
+
+//to checkout an already created branch
+git checkout <branch name>
